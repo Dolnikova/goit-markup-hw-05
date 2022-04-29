@@ -117,7 +117,7 @@ li {
     left: 0;
     bottom: -3px;
     width: 100%;
-    height: 1px;
+    height: 4px;
     border-radius: 2px;
     background-color: var(--second-color);
 }
@@ -272,6 +272,25 @@ li {
 .command-work,
 .description-list {
     display: flex;
+}
+.dextop {
+    position: absolute;
+    display: flex;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    color: rgba(255, 255, 255, 1);
+    Font-style: Bold;
+    Font-size: 14px;
+    Line-height: 1.143;
+    align-items: Center;
+    justify-content: center;
+    Letter-spacing: 0.03em;
+}
+.dextop-fone {
+    position: relative;
+    overflow: hidden;
 }
 .command-item {
     background-color: var(--logo-footer-adress-hero);
